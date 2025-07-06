@@ -2,8 +2,7 @@
 한국어 서사 복원 프로젝트에 대한 자세한 사항은 [클리오사회발전연구소](https://sites.google.com/clioisds.org/clioisds/research/narrative-mining) 홈페이지에서 확인하실 수 있습니다. 
 <br>본 페이지는 클리오사회발전연구소의 **한국어 서사 복원 프로젝트**의 일환으로 구축된 **CLIO SRL dataset_ver2**와 정보를 제공합니다.
 * 한국어 서사 복원 프로젝트에서는 사회과학 특성을 반영한 의미역 결정(SRL: Sementic Role Labeling) 예측 모델 개발을 위한 학습 데이터셋으로 CLIO SRL dataset을 구축했습니다.
-* CLIO SRL 데이터셋은 휴먼코더(Human Coders)들이 각 문장에 대해 의미역 결정(SRL: Sementic Role Labeling) 작업을 진행한 뒤 언어모델이 학습 가능한 형태로 전처리하여 제공됩니다.
-* json과 csv 두 가지 확장자로 제공하고 있습니다.
+* CLIO SRL 데이터셋은 휴먼코더(Human Coders)들이 각 문장에 대해 의미역 결정(SRL: Sementic Role Labeling) 작업을 진행한 뒤 언어모델이 학습 가능한 형태로 전처리하여 csv와 json 확장자로 제공됩니다.
 <br>
 
 # 데이터셋 구성
