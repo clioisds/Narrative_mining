@@ -33,6 +33,23 @@ pred_index|Predicate의 문장 내 index번호|
 |word_id|공백을 기준으로 문장을 분리, 분리된 문장의 부분들은 하나의 요소로 보고 리스트의 형태로 변환|
 <br>
 
+# 자동 분류 모델 적용의 예시
+한국어 서사 복원 프로젝트에서는 CLIO SRL 데이터셋을 학습시켜 CLIO SRL 분류 모델을 구축했습니다
+* CLIO SRL 분류 모델은 학습을 위해 klue RoBERTa/large을 이용했으며, 모델 구축에 관련한 자세한 사항은 아래의 깃허브 링크를 통해 제공합니다
+* https://github.com/HYU-NLP/Semantic-Role-Labeling
+
+* 자동 분류 결과의 예시를 제공하기 위해 CLIO SRL 데이터셋을 위해 수집한 자료 사회면 기사와 사회과학 분야 논문 초록의 문장에 대해 SRL 자동 분류를 실시했으며, 
+* 분류 결과 예시는 "CLIO_SRL_Reuslts.csv"로 공개합니다.
+
+|Column|설명|
+|:---|:---|
+|id|문장이 포함되어있는 전체 기사 또는 논문 초록의 고유값|
+|id_sequence|문장의 고유값|
+|type|문장의 출처, 기사는 0, 논문 초록 중 사회학은 1, 사회과학일반은 2의 값|
+|line|문장|
+|extracted_srl|SRL 분류 결과|
+<br>
+
 # 문의
 admin@clioisds.org
 
