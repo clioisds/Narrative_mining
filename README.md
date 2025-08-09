@@ -38,7 +38,8 @@ pred_index|Predicate의 문장 내 index번호|
 * CLIO SRL 분류 모델은 학습을 위해 klue RoBERTa/large을 이용했으며, 모델 구축에 관련한 자세한 사항은 아래의 깃허브 링크를 통해 제공합니다
   [NLP Lab. at Hanyang University] (https://github.com/HYU-NLP/Semantic-Role-Labeling)
 * 자동 분류 결과의 예시를 제공하기 위해 CLIO SRL 데이터셋을 위해 수집한 자료 사회면 기사와 사회과학 분야 논문 초록의 문장에 대해 SRL 자동 분류를 실시했으며, 
-  <br>분류 결과 예시는 "CLIO_SRL_Reuslts.csv"로 공개합니다.
+  <br>분류 결과 예시 "CLIO_SRL_Reuslts.csv" 파일은 공유 드라이브 링크로 공개합니다.
+https://drive.google.com/file/d/1kq9_K7CwQJ_k7XOhq4p3Czm-AcS_ePy9/view?usp=sharing
   <br>
 
 |Column|설명|
